@@ -12,11 +12,15 @@ This project was developed over the course of 11 years by an interdisciplinary t
   <img alt="SIMULTAN" src="default-image.png">
 </picture>
 
+[Initial publication in 2020](https://nachhaltigwirtschaften.at/resources/sdz_pdf/schriftenreihe-2020-04-simultan.pdf)
+
+[Other publications](https://gitlab.tuwien.ac.at/simultangroup/SIMULTAN-Documentation/-/wikis/Publikationen-%C3%BCber-Simultan)
+
 [Data model repository on GitLab](https://gitlab.tuwien.ac.at/simultangroup/SIMULTAN)
 
 [Data model repository on GitHub](https://github.com/bph-tuwien/SIMULTAN)
 
-[Data model documentation](https://github.com/bph-tuwien/SIMULTAN.Documentation/wiki)
+[Data model documentation](https://gitlab.tuwien.ac.at/simultangroup/SIMULTAN-Documentation/-/wikis/home)
 
 It was initially funded by the [Austrian Research Promotion Agency (FFG)](https://www.ffg.at/en); later it was further developed in close cooperation with multiple partners from the Architecture, Engineering and Construction (AEC) industry.
 
@@ -37,4 +41,4 @@ This project focuses on the algorithm for constructing the corner manifolds: Aft
 *Figure 1. Contracting a collection of 1d features step-by-step.*
 <a name="figure_1"></a>
 
-[The work was published as a master thesis at TU Wien](https://repositum.tuwien.at/handle/20.500.12708/158223) and and awarded the [Forschungspreis der Österreichischen Bundeskammer der Ziviltechniker:innen für 2023, BFG Informationstechnologie ](https://bund.zt.at/aktuell/veranstaltungen/veranstaltungsarchiv/forschungspreise-zivilingenieurwesen/preistraegerinnen-forschungspreise-2023).
+The work was published as a [master thesis at TU Wien](https://repositum.tuwien.at/handle/20.500.12708/158223) and and awarded the [Forschungspreis der Österreichischen Bundeskammer der Ziviltechniker:innen für 2023, BFG Informationstechnologie ](https://bund.zt.at/aktuell/veranstaltungen/veranstaltungsarchiv/forschungspreise-zivilingenieurwesen/preistraegerinnen-forschungspreise-2023).
