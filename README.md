@@ -41,6 +41,7 @@ This project focuses on the algorithm for constructing the corner manifolds: Aft
 *Figure 1. Contracting a collection of 1d features step-by-step.*
 <a name="figure_1"></a>
 
-https://youtu.be/xn1lYXiqfSk
+
+[![Procedural Shape Contraction](assets/images/OverviewWorkflow.png)](https://www.youtube.com/watch?v=xn1lYXiqfSk)
 
 The work was published as a [master thesis at TU Wien](https://repositum.tuwien.at/handle/20.500.12708/158223) and and awarded the [Forschungspreis der Österreichischen Bundeskammer der Ziviltechniker:innen für 2023, BFG Informationstechnologie ](https://bund.zt.at/aktuell/veranstaltungen/veranstaltungsarchiv/forschungspreise-zivilingenieurwesen/preistraegerinnen-forschungspreise-2023).
