@@ -42,7 +42,11 @@ This project focuses on the algorithm for constructing the corner manifolds: Aft
 <a name="figure_1"></a>
 
 
-[![Procedural Shape Contraction](assets/images/OverviewWorkflow.png)](https://www.youtube.com/embed/xn1lYXiqfSk?width=600)
+[![Procedural Shape Contraction](assets/images/OverviewWorkflow.png)](https://www.youtube.com/embed/xn1lYXiqfSk)
+
+<iframe id="ytplayer" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/Mxn1lYXiqfSk?autoplay=0
+  frameborder="0"></iframe>
 
 
 
