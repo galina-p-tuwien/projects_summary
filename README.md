@@ -44,4 +44,8 @@ This project focuses on the algorithm for constructing the corner manifolds: Aft
 
 [![Procedural Shape Contraction](assets/images/OverviewWorkflow.png)](https://www.youtube.com/embed/xn1lYXiqfSk)
 
+<p align="center" width="100%">
+<video src="https://youtu.be/xn1lYXiqfSk" width="50%" poster="assets/images/OverviewWorkflow.png" controls></video>
+</p>
+
 The work was published as a [master thesis at TU Wien](https://repositum.tuwien.at/handle/20.500.12708/158223) and and awarded the [Forschungspreis der Österreichischen Bundeskammer der Ziviltechniker:innen für 2023, BFG Informationstechnologie ](https://bund.zt.at/aktuell/veranstaltungen/veranstaltungsarchiv/forschungspreise-zivilingenieurwesen/preistraegerinnen-forschungspreise-2023).
