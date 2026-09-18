@@ -2,7 +2,7 @@
 
 This is an overview of past and current major projects. 
 
-## SIMULTAN *(2015 - present)*
+## 1. SIMULTAN *(2015 - present)*
 
 This project was developed over the course of 11 years by an interdisciplinary team of software and civil engineers at the [TU Wien](https://www.tuwien.at/cee/mbb/bph) under the lead of [Prof. Thomas Bednar](https://tiss.tuwien.ac.at/person/37331.html).
 
@@ -24,7 +24,15 @@ This project was developed over the course of 11 years by an interdisciplinary t
 
 It was initially funded by the [Austrian Research Promotion Agency (FFG)](https://www.ffg.at/en); later it was further developed in close cooperation with multiple partners from the Architecture, Engineering and Construction (AEC) industry.
 
-## Procedural Shape Contraction *(2021 - 2023)*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/images/Clabject_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/assets/images/Claject_light.png">
+  <img alt="SIMULTAN" src="default-image.png">
+</picture>
+*Figure 1.1. The syntactic and semantic dimensions of a clabject.*
+<a name="figure_1_1"></a>
+
+## 2. Procedural Shape Contraction *(2021 - 2023)*
 
 ![Overview of PSC](assets/images/PSC_Overview.png)
 
@@ -35,18 +43,18 @@ This project demonstrates a method for integrating 2d construction documentation
 3. We align the feature collection obtained from each detail with the 3d skeleton, in accordance with the architectural design. The goal is to build a 2-manifold with a boundary at each corner of the 3d skeleton.
 4. Spanning ruled surfaces between neighbouring corner manifolds completes the final surface model.
 
-This project focuses on the algorithm for constructing the corner manifolds: After the alignment of the feature collections with the 3d skeleton is performed, we calculate a rich descriptor, based on geometric relationship functions, for each feature. In addition, we construct its adjacency graph, containing all other features whose descriptor will change in case this feature is discarded. We then apply simultaneous procedural contraction to all feature collections affecting the same corner of the 3d model ([see Figure 1](#figure_1)). In each step a preservation score is calculated for all features, based on their descriptors. The feature with the lowest score is discarded and the descriptors and adjacency graphs for all others recalculated. This contraction produces ruled surface segments that are eventually stitched together into a 2-manifold with a boundary. The algorithm evaluation was performed by building a prototype in [MatLab](https://de.mathworks.com/products/matlab.html) and testing it on 170 detail combinations.
+This project focuses on the algorithm for constructing the corner manifolds: After the alignment of the feature collections with the 3d skeleton is performed, we calculate a rich descriptor, based on geometric relationship functions, for each feature. In addition, we construct its adjacency graph, containing all other features whose descriptor will change in case this feature is discarded. We then apply simultaneous procedural contraction to all feature collections affecting the same corner of the 3d model ([see Figure 2.1](#figure_2_1)). In each step a preservation score is calculated for all features, based on their descriptors. The feature with the lowest score is discarded and the descriptors and adjacency graphs for all others recalculated. This contraction produces ruled surface segments that are eventually stitched together into a 2-manifold with a boundary. The algorithm evaluation was performed by building a prototype in [MatLab](https://de.mathworks.com/products/matlab.html) and testing it on 170 detail combinations.
 
 ![Example PSC](assets/images/PSC_Example.png)
-*Figure 1. Contracting a collection of 1d features step-by-step.*
-<a name="figure_1"></a>
+*Figure 2.1. Contracting a collection of 1d features step-by-step.*
+<a name="figure_2_1"></a>
 
 
 [![Procedural Shape Contraction](assets/images/OverviewWorkflowPlay.png)](https://www.youtube.com/embed/xn1lYXiqfSk)
 
 
 [//]: # (<video width="600" src="https://github.com/user-attachments/assets/885bc938-5e18-46ca-8e63-fdc4c941c47c.mp4"></video>)
-*Video 1. Prototype tests implemented in MatLab.*
+*Video 2.1. Prototype tests implemented in MatLab.*
 
 
 The work was published as a [master thesis at TU Wien](https://repositum.tuwien.at/handle/20.500.12708/158223) and awarded the [Forschungspreis der Österreichischen Bundeskammer der Ziviltechniker:innen für 2023, BFG Informationstechnologie ](https://bund.zt.at/aktuell/veranstaltungen/veranstaltungsarchiv/forschungspreise-zivilingenieurwesen/preistraegerinnen-forschungspreise-2023).
