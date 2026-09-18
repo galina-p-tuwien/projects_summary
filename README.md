@@ -24,11 +24,14 @@ This project was developed over the course of 11 years by an interdisciplinary t
 
 It was initially funded by the [Austrian Research Promotion Agency (FFG)](https://www.ffg.at/en); later it was further developed in close cooperation with multiple partners from the Architecture, Engineering and Construction (AEC) industry.
 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/assets/images/Clabject_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="/assets/images/Claject_light.png">
-  <img alt="SIMULTAN" src="default-image.png">
+  <img alt="CLABJECT" src="default-image.png">
 </picture>
+
+![]()
 *Figure 1.1. The syntactic and semantic dimensions of a clabject.*
 <a name="figure_1_1"></a>
 
