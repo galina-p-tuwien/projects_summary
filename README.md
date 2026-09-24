@@ -24,6 +24,8 @@ This project was developed over the course of 11 years by an interdisciplinary t
 
 It was initially funded by the [Austrian Research Promotion Agency (FFG)](https://www.ffg.at/en); later it was further developed in close cooperation with multiple partners from the Architecture, Engineering and Construction (AEC) industry.
 
+[![Simultan Concept Video](assets/images/Simultan_Concept_Video.png)](https://www.youtube.com/embed/UpgmfMcSJz4)
+
 SIMULTAN is a meta-model. It offers a few generic building blocks for the construction of domain-specific models, e.g., for the model of a building, for the simulation model of a physical phenomenon, or for an electrical grid. A SIMULTAN model element behaves similarly to a [clabject](https://link.springer.com/article/10.1007/s10270-006-0017-9), i.e., an amalgamation of a class and an object.
 
 
