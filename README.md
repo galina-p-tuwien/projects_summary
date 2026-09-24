@@ -26,7 +26,7 @@ It was initially funded by the [Austrian Research Promotion Agency (FFG)](https:
 
 SIMULTAN is a meta-model. It offers a few generic building blocks for the construction of domain-specific models, e.g., for the model of a building, for the simulation model of a physical phenomenon, or for an electrical grid. A SIMULTAN model element behaves similarly to a [clabject](https://link.springer.com/article/10.1007/s10270-006-0017-9), i.e., an amalgamation of a class and an object.
 
-Those generic building blocks cover three different aspects of modelling: *structure*, *semantics* and *representation*. For the structure there are components, parameters and calculations; for semantics there are taxonomies with nested taxonomy entries; for the representation there are shapes: vertices, edges, faces and volumes.
+The generic building blocks cover three different aspects of modelling: *structure*, *semantics* and *representation*. For the structure there are components, parameters and calculations; for semantics there are taxonomies with nested taxonomy entries; for the representation there are shapes: vertices, edges, faces and volumes.
 
 [Video 1.1](#video_1_1) outlines the road from the modelling requirements of the Architecture, Engineering and Construction (AEC) industry to the concept behind SIMULTAN. [Video 1.2](#video_1_2) shows the implementation of the concept and demonstrates the interplay of structure, semantics and representation in a digital model from the AEC domain of building physics.
 
@@ -36,7 +36,7 @@ Those generic building blocks cover three different aspects of modelling: *struc
 <a name="video_1_1"></a>
 
 [![Simultan Implementation Video: coming soon](assets/images/Simultan_Impl_Video.png)]()
-*Video 1.2. The idea behind SIMULTAN.*
+*Video 1.2. The implementation of SIMULTAN.*
 <a name="video_1_2"></a>
 
 [Figure 1.1](#figure_1_1) demonstrates the power of SIMULTAN to model deep semantic hierarchies. In essence, the relationships between component and instance provides a syntax that can express multiple semantic levels. (*A video going into more detail will be coming soon.*)
