@@ -30,18 +30,18 @@ The generic building blocks cover three different aspects of modelling: *structu
 
 [Video 1.1](#video_1_1) outlines the road from the modelling requirements of the Architecture, Engineering and Construction (AEC) industry to the concept behind SIMULTAN. [Video 1.2](#video_1_2) shows the implementation of the concept and demonstrates the interplay of structure, semantics and representation in a digital model from the AEC domain of building physics.
 
-
+<a name="video_1_1"></a>
 [![Simultan Concept Video](assets/images/Simultan_Concept_Video.png)](https://www.youtube.com/embed/UpgmfMcSJz4)
 *Video 1.1. The idea behind SIMULTAN.*
-<a name="video_1_1"></a>
 
+<a name="video_1_2"></a>
 [![Simultan Implementation Video: coming soon](assets/images/Simultan_Impl_Video.png)]()
 *Video 1.2. The implementation of SIMULTAN.*
-<a name="video_1_2"></a>
+
 
 [Figure 1.1](#figure_1_1) demonstrates the power of SIMULTAN to model deep semantic hierarchies. In essence, the relationships between component and instance provides a syntax that can express multiple semantic levels. (*A video going into more detail will be coming soon.*)
 
-
+<a name="figure_1_1"></a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/assets/images/Clabject_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="/assets/images/Claject_light.png">
@@ -50,7 +50,7 @@ The generic building blocks cover three different aspects of modelling: *structu
 
 ![]()
 *Figure 1.1. The syntactic and semantic dimensions of a clabject.*
-<a name="figure_1_1"></a>
+
 
 ## 2. Procedural Shape Contraction *(2021 - 2023)*
 
