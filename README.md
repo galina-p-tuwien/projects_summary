@@ -41,7 +41,7 @@ The generic building blocks cover three different aspects of modelling: *structu
 *Video 1.2. The implementation of SIMULTAN.*
 
 
-[Figure 1.1](#figure_1_1) demonstrates the power of SIMULTAN to model deep semantic hierarchies. In essence, the relationships between component and instance provides a syntax that can express multiple semantic levels. (*A video going into more detail will be coming soon.*)
+[Figure 1.1](#figure_1_1) demonstrates the power of SIMULTAN to model deep semantic hierarchies. In essence, the relationships between component and instance provide a syntax that can express multiple semantic levels. (*A video going into more detail will be coming soon.*)
 
 <a name="figure_1_1"></a>
 
@@ -54,6 +54,7 @@ The generic building blocks cover three different aspects of modelling: *structu
 ![]()
 *Figure 1.1. The syntactic and semantic dimensions of a clabject.*
 
+This project is open source and its development is ongoing.
 
 ## 2. Procedural Shape Contraction *(2021 - 2023)*
 
