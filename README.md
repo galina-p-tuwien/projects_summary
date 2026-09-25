@@ -24,7 +24,19 @@ This project was developed over the course of 11 years by an interdisciplinary t
 
 It was initially funded by the [Austrian Research Promotion Agency (FFG)](https://www.ffg.at/en); later it was further developed in close cooperation with multiple partners from the Architecture, Engineering and Construction (AEC) industry.
 
-SIMULTAN is a meta-model. It offers a few generic building blocks for the construction of domain-specific models, e.g., for the model of a building, for the simulation model of a physical phenomenon, or for an electrical grid. A SIMULTAN model element behaves similarly to a [clabject](https://link.springer.com/article/10.1007/s10270-006-0017-9), i.e., an amalgamation of a class and an object.
+SIMULTAN is a [meta-model](https://dl.acm.org/doi/abs/10.5555/3103551) (see [Figure 1.1](#figure_1_1)). It offers a few generic building blocks for the construction of domain-specific models, e.g., for the model of a building, for the simulation model of a physical phenomenon, or for an electrical grid. A SIMULTAN model element behaves similarly to a [clabject](https://link.springer.com/article/10.1007/s10270-006-0017-9), i.e., an amalgamation of a class and an object.
+
+<a name="figure_1_1"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/images/Metamodel_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/assets/images/Metamodel_light.png">
+  <img alt="METAMODEL" src="default-image.png">
+</picture>
+
+
+![]()
+*Figure 1.2. The syntactic and semantic dimensions of a clabject.*
 
 The generic building blocks cover three different aspects of modelling: *structure*, *semantics* and *representation*. For the structure there are components, parameters and calculations; for semantics there are taxonomies with nested taxonomy entries; for the representation there are shapes: vertices, edges, faces and volumes.
 
@@ -41,9 +53,9 @@ The generic building blocks cover three different aspects of modelling: *structu
 *Video 1.2. The implementation of SIMULTAN.*
 
 
-[Figure 1.1](#figure_1_1) demonstrates the power of SIMULTAN to model deep semantic hierarchies. In essence, the relationships between component and instance provide a syntax that can express multiple semantic levels. (*A video going into more detail will be coming soon.*)
+[Figure 1.2](#figure_1_2) demonstrates the power of SIMULTAN to model deep semantic hierarchies. In essence, the relationships between component and instance provide a syntax that can express multiple semantic levels. (*A video going into more detail will be coming soon.*)
 
-<a name="figure_1_1"></a>
+<a name="figure_1_2"></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/assets/images/Clabject_dark.png">
@@ -52,7 +64,7 @@ The generic building blocks cover three different aspects of modelling: *structu
 </picture>
 
 ![]()
-*Figure 1.1. The syntactic and semantic dimensions of a clabject.*
+*Figure 1.2. The syntactic and semantic dimensions of a clabject.*
 
 This project is open source and its development is ongoing.
 
