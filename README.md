@@ -36,7 +36,7 @@ SIMULTAN is a [meta-model](https://dl.acm.org/doi/abs/10.5555/3103551) (see [Fig
 
 
 ![]()
-*Figure 1.2. The syntactic and semantic dimensions of a clabject.*
+*Figure 1.1. The relationship between a model and its metamodel.*
 
 The generic building blocks cover three different aspects of modelling: *structure*, *semantics* and *representation*. For the structure there are components, parameters and calculations; for semantics there are taxonomies with nested taxonomy entries; for the representation there are shapes: vertices, edges, faces and volumes.
 
